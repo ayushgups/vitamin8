@@ -1,0 +1,18 @@
+/* page.module.css */
+
+.container {
+  /* Make sure the container covers the entire viewport */
+  min-height: 100vh;
+  width: 100%;
+  padding: 20px;
+  transition: background-color 0.3s ease, color 0.3s ease;
+
+  /* Optional: Reset body margin to remove white gaps */
+  margin: 0;
+  box-sizing: border-box;
+}
+
+.darkMode {
+  background-color: #333;
+  color: #fff;
+}
